@@ -8,7 +8,7 @@ cd backend
 python -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
-MODEL_PATH=""MODEL_PATH python run.py
+MODEL_PATH="MODEL_PATH" python run.py
 ```
 
 The API starts on `0.0.0.0:8765`.
